@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>The Codex Machio</title>
+        <link rel=stylesheet type="text/css" href="test1.css">
+    </head>
+    <body class="indexbody">
+        
+        <h1>The Codex Machio</h1>
+        
+        <img class="roundimg" src="4911_large.jpg" alt="our future, god willing">
+        <br><br>
+        <h1>Resources</h1>
+        <div class="brewindex">
+            <ul>
+            <li><a href="DCC.html">Dungeon Crawl Classic Intro/Tutorials</a></li>
+            <li><a href="crit.html">DCC Crit Tables</a></li>
+            <li>Fumble Table</li>
+            <li><a href="https://purplesorcerer.com/grimoire.php">Grimoire Generator</a></li>
+            <li><a href="https://purplesorcerer.com/create_party.php">Level 0 Party Generator</a></li> 
+                <li><a href="Homebrew.html">Homebrew Ideas</a></li><br><br>
+                <li><FORM>
+                    <input type="button" class="button" value="Enter Special Area" onClick="passWord()">
+                </FORM></li>
+            </ul>
+        </div>
+        <br><br><br>
+        2021
+
+        
+        <!--cool tip in javascript use `in between these` to do multiline strings ${variable} inside. -->
+        
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Enter Password',' ');
+while (testV < 3) {
+if (!pass1)
+history.go(-1);
+if (pass1.toLowerCase() == "cool") {
+window.open('GMlanding.html');
+break;
+}
+testV+=1;
+var pass1 =
+prompt('Access Denied','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3)
+history.go(-1);
+return " ";
+}
+</SCRIPT>
+        
+        
+    </body>
+    
+</html>
+    

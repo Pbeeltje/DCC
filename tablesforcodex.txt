@@ -1,0 +1,42 @@
+LAYOUT
+Seperate portal for GMS..maybe just run from HDD
+
+Resources for players/ public:
+
+GM mechanics Ideas
+
+
+private:
+Campaign setting Ideas-could really benefit from seperate pages
+and linking, almost wiki style.
+
+GM questhook ideas
+GM campaign notes
+-maybe shorter versions of character descriptions that link back to
+setting + player interaction. would be nice on 2nd screen
+
+
+common tables
+--add some not from DCC
+
+melee combat:
+crit tables-done (i imagine VTT has automated dicerolls on crit?
+maybe not since your crit die changes)
+fumble
+
+
+spells
+-spell lists
+-the individual spells -too many
+-mercurial magic
+-disaproval/sin for cleric
+-generic corruption
+-generic misfire
+
+
+
+GM
+I Search the Body
+Encounters
+Npcs
+Locations

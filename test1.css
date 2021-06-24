@@ -1,0 +1,222 @@
+body {background: white;
+font-family: calibri, sans-serif;
+text-align: center;
+;}
+
+.indexbody {
+    background-image: url("interlaced.png");
+}
+
+.bodyw {
+    background-image: url(oldmanspires.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h3 {color:black;
+    background-color: white;
+}
+
+h4 {
+     margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {color:black;
+    margin-left: 280px;
+    text-align: left;
+    position:relative;
+z-index: 10;
+}
+
+.inventory {background-color: aliceblue;
+    width:500px;
+}
+
+#h22 {
+    color:white;
+}
+
+#thumb {
+  border: 1px solid; /* Gray border */
+  border-color: black;
+  height: 200px; /* Set a small width */
+}
+
+}
+
+h1 {font-family: calibri, sans-serif;
+text-align: center;
+margin: 0;
+padding:15px;
+    color:black;
+ position:relative;
+z-index: 10;
+}
+
+#h11 {
+    color:white;
+}
+
+a {color:darkblue;
+    text-decoration: none;
+    font-style: none;
+    position:relative;
+    z-index: 1;
+}
+ul {list-style: none;
+padding-left: 0;}
+
+.roundimg {
+    width:300px;
+    border-radius: 150px;
+}
+
+.smallimg {
+width: 320px;
+height: auto;
+}
+
+.smallimg:hover {opacity: 0.7;}
+
+
+.white {
+    text-align: left;
+    color:white;
+    font-size: 20px;
+    color: #818181;
+}
+
+.brew, .brewred {
+    font-family: calibri, sans-serif;
+    font-size: 18px;
+    margin-right: 280px;
+    margin-left: 280px;
+    text-align: left;
+    background-color: rgba(213, 224, 242,0.95);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DDDDDD;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    position:relative;
+    z-index: 10;
+    min-width: 250px;
+}
+
+.brewred {
+    background-color: rgba(243, 220, 213,0.95);
+}
+
+.brewindex {
+    font-family: calibri, sans-serif;
+    font-size: 22px;
+    width:33.33%;
+    left:33.33%;
+    height:auto;
+    text-align: center;
+    background-color: rgba(213, 244, 213,0.95);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DDDDDD;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    position:relative;
+    z-index: 10;
+    min-width: 150px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+
+a:hover {text-decoration: underline;}
+
+.bodyg {
+      background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+p {
+    display: inline;
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
